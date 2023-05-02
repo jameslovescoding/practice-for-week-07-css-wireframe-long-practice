@@ -21,6 +21,7 @@
   text-decoration: none;
   color: green;
   padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #root .header .nav__upper .upper__right .get-started {
@@ -49,11 +50,21 @@
   /* max-width: 600px; */
   margin: 0px auto;
   width: fit-content;
-
 }
 
 #root .grid a {
   text-decoration: none;
+  font-weight: 700;
+  font-size: small;
+  padding: 20px;
+
+}
+
+/* Content */
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 0px 30px 0px;
 }
 
 /* Footer */
@@ -61,5 +72,6 @@
 #root .footer {
   display: flex;
   justify-content: space-between;
-  margin: 0px 200px 0px 200px;
+  margin: 20px 200px 0px 200px;
+
 }
