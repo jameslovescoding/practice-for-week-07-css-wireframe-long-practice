@@ -1,0 +1,65 @@
+/* Nav Bar Margin */
+
+#root .header {
+  margin: 0px 200px 0px 200px;
+}
+
+/* Content Margin */
+
+#root .content {
+  margin: 0px 400px 0px 400px;
+}
+
+/* Upper Header */
+
+#root .header .nav__upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#root .header .nav__upper .upper__right a {
+  text-decoration: none;
+  color: green;
+  padding: 5px;
+}
+
+#root .header .nav__upper .upper__right .get-started {
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+/* Lower Header */
+
+#root .header .nav__lower {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#root .header .nav__lower a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* Grid */
+
+#root .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* max-width: 600px; */
+  margin: 0px auto;
+  width: fit-content;
+
+}
+
+#root .grid a {
+  text-decoration: none;
+}
+
+/* Footer */
+
+#root .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px 0px 200px;
+}
